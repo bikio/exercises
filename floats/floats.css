@@ -1,0 +1,51 @@
+code {
+  background: lightseagreen;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  font: 14px "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+
+.group {
+  background: whitesmoke;
+  border-radius: 8px;
+  clear: both;
+  *zoom: 1;
+}
+
+.default {
+  background: none;
+  color: #666;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+
+.group,
+header,
+.main,
+.sidebar,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+.main {
+  float: left;
+  width: 63%;
+}
+.sidebar {
+  float: right;
+  width: 30%;
+}
+footer {
+  margin-bottom: 0;
+}
+
